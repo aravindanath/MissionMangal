@@ -11,7 +11,7 @@ public class Anotations {
 	}
 	@Test
 	public void logout() {
-		System.out.println("My first test logout");
+		
 	}
 	
 
