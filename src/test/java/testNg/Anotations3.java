@@ -1,10 +1,14 @@
 package testNg;
 
+import static org.testng.Assert.fail;
+
+import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Anotations {
+public class Anotations3 {
 
 	/**
 	 * open browser User login to amazon search product, addto cart and change
@@ -16,20 +20,23 @@ public class Anotations {
 		System.err.println("Open browser");
 	}
 
-	@Test(priority=1)
+	@Test
 	public void openUrl() {
 
 		System.out.println("Open url");
+		 
 	}
 
-	@Test(priority=2)
+	@Test(dependsOnMethods = "openUrl")
 	public void login() {
-		System.out.println("My first test");
+		System.out.println("login");
 	}
 
-	@Test(priority=3)
+	@Test
 	public void search() {
-		System.out.println("search");
+		
+		throw new SkipException("Skipping...");
+//		System.out.println("search");
 	}
 
 	@Test
@@ -37,7 +44,7 @@ public class Anotations {
 		System.out.println("add to cart");
 	}
 
-	@Test(priority=4)
+	@Test
 	public void addAddress() {
 		System.out.println("add address");
 	}
