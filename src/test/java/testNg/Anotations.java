@@ -26,6 +26,7 @@ public class Anotations {
 	public void login() {
 		System.out.println("My first test");
 	}
+ 
 
 	@Test(priority=3)
 	public void search() {
@@ -52,5 +53,7 @@ public class Anotations {
 		System.err.println(" close browser");
 
 	}
+ 
+ 
 
 }
