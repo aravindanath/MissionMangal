@@ -3,6 +3,8 @@ package testNg;
 import org.testng.annotations.Test;
 import org.testng.annotations.*;
 
+
+//@Listeners(ReportList.class)
 public class TC003 extends ExampleBFAFClass {
 
 	

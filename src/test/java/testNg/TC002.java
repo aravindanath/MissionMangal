@@ -1,6 +1,7 @@
 package testNg;
 
 import org.testng.annotations.Test;
+import org.testng.SkipException;
 import org.testng.annotations.*;
 
 public class TC002  extends ExampleBFAFClass{
@@ -28,6 +29,7 @@ public class TC002  extends ExampleBFAFClass{
 	public void addcart() {
 
 		System.out.println("addcart");
+		throw new SkipException("Skipping..");
 
 	}
 
