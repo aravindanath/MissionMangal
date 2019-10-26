@@ -65,7 +65,7 @@ public class ExampleBFAFClass {
 
 	
 	
-	@AfterMethod
+	//@AfterMethod
 	public void tearDown(ITestResult result) throws IOException {
 		if (result.getStatus() == ITestResult.FAILURE) {
 			
