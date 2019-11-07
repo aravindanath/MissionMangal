@@ -16,14 +16,15 @@ public class LaunchChrome {
 	public void launchbrowser() {
 		ChromeOptions ops =  new ChromeOptions();
 		ops.addArguments("--disable-notifications");
-		
+		ops.addArguments("--incognito");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver(ops);
 
 	}
 
 	@AfterClass
-	public void close() {
+	public void close() throws InterruptedException {
+		Thread.sleep(2500);
 		driver.close();
 	}
 
