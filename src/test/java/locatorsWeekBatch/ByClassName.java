@@ -1,21 +1,19 @@
-package loactors;
+package locatorsWeekBatch;
 
-import org.testng.annotations.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
 import browsers.LaunchChrome;
 
 public class ByClassName extends LaunchChrome {
 	
-	@Test
-	public void byClassName() throws InterruptedException {
-		driver.get("https://www.icicibank.com/");
-		
-		Thread.sleep(2000);
-		
-		driver.findElement(By.className("pl-login-ornage-box")).click();
-	}
 	
+	@Test
+	public void byName() throws InterruptedException {
+		driver.get("https://www.icicibank.com/");
+		driver.findElement(By.className("pl-login-ornage-box")).click();
+		Thread.sleep(2000);
+	}
 
 }

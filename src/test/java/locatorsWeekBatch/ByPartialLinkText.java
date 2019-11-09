@@ -1,6 +1,5 @@
-package loactors;
+package locatorsWeekBatch;
 
-import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
@@ -11,16 +10,12 @@ public class ByPartialLinkText extends LaunchChrome {
 	
 	
 	@Test
-	public void partiallinktext() throws InterruptedException {
-		
+	public void byPLink() throws InterruptedException {
 		driver.get("https://www.google.com");
 		driver.findElement(By.partialLinkText("Ima")).click();
-		Thread.sleep(2000);
-		driver.findElement(By.name("q")).sendKeys("SFO",Keys.ENTER);
-		driver.quit();
-		
-		
-		
+		Thread.sleep(1000);
+		driver.findElement(By.name("q")).sendKeys("Astana",Keys.ENTER);
+		Thread.sleep(2500);
 	}
 
 }
