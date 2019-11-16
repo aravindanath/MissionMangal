@@ -14,8 +14,9 @@ public class ByLinkText extends LaunchChrome {
 		driver.get("https://www.google.com");
 //		driver.get("file:///Users/aravindanathdm/Desktop/demo.html");
 //		driver.findElement(By.linkText("Google")).click();
-		driver.findElement(By.linkText("Gmail")).click();
+		driver.findElement(By.linkText("हिन्दी")).click();
 		Thread.sleep(2500);
+		driver.findElement(By.name("q")).sendKeys("News",Keys.ENTER);
 	}
 
 }

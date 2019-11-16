@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="87" started-at="2019-10-12T11:37:35Z" finished-at="2019-10-12T11:37:35Z">
+  <suite name="Default suite" duration-ms="10260" started-at="2019-11-16T11:55:20Z" finished-at="2019-11-16T11:55:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="87" started-at="2019-10-12T11:37:35Z" finished-at="2019-10-12T11:37:35Z">
-      <class name="testNg.Anotations">
-        <test-method status="PASS" signature="login()[pri:0, instance:testNg.Anotations@61832929]" name="login" duration-ms="39" started-at="2019-10-12T11:37:35Z" finished-at="2019-10-12T11:37:35Z">
+    <test name="Default test" duration-ms="10260" started-at="2019-11-16T11:55:20Z" finished-at="2019-11-16T11:55:31Z">
+      <class name="locatorsWeekBatch.ByCSSEndsWith">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:locatorsWeekBatch.ByCSSEndsWith@7e0e6aa2]" name="launchbrowser" is-config="true" duration-ms="3861" started-at="2019-11-16T11:55:20Z" finished-at="2019-11-16T11:55:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- testNg.Anotations -->
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="cssContains()[pri:0, instance:locatorsWeekBatch.ByCSSEndsWith@7e0e6aa2]" name="cssContains" duration-ms="3628" started-at="2019-11-16T11:55:24Z" finished-at="2019-11-16T11:55:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cssContains -->
+        <test-method status="PASS" signature="close()[pri:0, instance:locatorsWeekBatch.ByCSSEndsWith@7e0e6aa2]" name="close" is-config="true" duration-ms="2734" started-at="2019-11-16T11:55:28Z" finished-at="2019-11-16T11:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- locatorsWeekBatch.ByCSSEndsWith -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

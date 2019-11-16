@@ -12,6 +12,7 @@
 			<class name="testNg.TC001" />
 			<class name="testNg.TC002" />
 			<class name="testNg.TestclassSample" />
+			<class name="loactors.ByID"></class>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

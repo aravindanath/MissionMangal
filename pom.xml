@@ -6,7 +6,7 @@
 	<artifactId>com.falcom.automation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
-	<!-- https://poi.apache.org/overview.html -->
+		<!-- https://poi.apache.org/overview.html -->
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -62,7 +62,6 @@
 		</dependency>
 		<!--https://logging.apache.org/log4j/2.x/maven-artifacts.html -->
 
-
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -104,6 +103,7 @@
 			<artifactId>extentreports</artifactId>
 			<version>4.0.9</version>
 		</dependency>
+		<!-- "Add the below maven dependency for webdriver manager" -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-htmlunit-driver</artifactId>
@@ -112,9 +112,11 @@
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>3.3.0</version>
+			<version>3.7.1</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- <dependency> <groupId>io.github.bonigarcia</groupId> <artifactId>webdrivermanager</artifactId> 
+			<version>3.3.0</version> <scope>test</scope> </dependency> -->
 
 
 
