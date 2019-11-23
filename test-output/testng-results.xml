@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10260" started-at="2019-11-16T11:55:20Z" finished-at="2019-11-16T11:55:31Z">
+  <suite name="Default suite" duration-ms="25383" started-at="2019-11-23T13:02:20Z" finished-at="2019-11-23T13:02:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10260" started-at="2019-11-16T11:55:20Z" finished-at="2019-11-16T11:55:31Z">
-      <class name="locatorsWeekBatch.ByCSSEndsWith">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:locatorsWeekBatch.ByCSSEndsWith@7e0e6aa2]" name="launchbrowser" is-config="true" duration-ms="3861" started-at="2019-11-16T11:55:20Z" finished-at="2019-11-16T11:55:24Z">
+    <test name="Default test" duration-ms="25383" started-at="2019-11-23T13:02:20Z" finished-at="2019-11-23T13:02:45Z">
+      <class name="seleniumMethods.AutosuggestAndCalender">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:seleniumMethods.AutosuggestAndCalender@7e0e6aa2]" name="launchbrowser" is-config="true" duration-ms="3428" started-at="2019-11-23T13:02:20Z" finished-at="2019-11-23T13:02:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="cssContains()[pri:0, instance:locatorsWeekBatch.ByCSSEndsWith@7e0e6aa2]" name="cssContains" duration-ms="3628" started-at="2019-11-16T11:55:24Z" finished-at="2019-11-16T11:55:28Z">
+        <test-method status="PASS" signature="autosuggestCalender()[pri:0, instance:seleniumMethods.AutosuggestAndCalender@7e0e6aa2]" name="autosuggestCalender" duration-ms="19290" started-at="2019-11-23T13:02:23Z" finished-at="2019-11-23T13:02:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cssContains -->
-        <test-method status="PASS" signature="close()[pri:0, instance:locatorsWeekBatch.ByCSSEndsWith@7e0e6aa2]" name="close" is-config="true" duration-ms="2734" started-at="2019-11-16T11:55:28Z" finished-at="2019-11-16T11:55:31Z">
+        </test-method> <!-- autosuggestCalender -->
+        <test-method status="PASS" signature="close()[pri:0, instance:seleniumMethods.AutosuggestAndCalender@7e0e6aa2]" name="close" is-config="true" duration-ms="2618" started-at="2019-11-23T13:02:42Z" finished-at="2019-11-23T13:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- locatorsWeekBatch.ByCSSEndsWith -->
+      </class> <!-- seleniumMethods.AutosuggestAndCalender -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

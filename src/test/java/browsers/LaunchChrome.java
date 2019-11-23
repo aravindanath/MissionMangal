@@ -25,7 +25,7 @@ public class LaunchChrome {
 	@AfterClass
 	public void close() throws InterruptedException {
 		Thread.sleep(2500);
-		driver.close();
+		driver.quit();
 	}
 
 }
