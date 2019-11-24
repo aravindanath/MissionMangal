@@ -19,6 +19,7 @@ public class LaunchChrome {
 		ops.addArguments("--incognito");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver(ops);
+		driver.manage().window().fullscreen();
 
 	}
 
